@@ -6,7 +6,8 @@ const Page3 = () => {
         { serialNumber: '1.1.1.1', name: 'Apple Sauce', canAdd: false, batchNumber: 1001, price: 2 },
         { serialNumber: '1.2', name: 'Vegetables', canAdd: true, batchNumber: null, price: null },
         { serialNumber: '1.2.1', name: 'Potato', canAdd: false, batchNumber: 11, price: 3 },
-      ]
+    ];
+
     return (
         <>
             <table>
@@ -21,14 +22,14 @@ const Page3 = () => {
                 </thead>
                 <tbody>
                     {
-                        data.map((item,index) => (
+                        data.map((item, index) => (
                             <tr key={index} className="border-gray-500 text-center">
 
                                 <td className="border border-gray-500 px-4 py-2">{item.serialNumber}</td>
 
                                 <td className="border border-gray-500 px-4 py-2">{item.name}</td>
 
-                                <td className="border border-gray-500 px-4 py-2">{item.canAdd ? "Yes" : "No"  }</td>
+                                <td className="border border-gray-500 px-4 py-2">{item.canAdd ? "Yes" : "No"}</td>
 
                                 <td className="border border-gray-500 px-4 py-2">{item.batchNumber !== null ? item.batchNumber : "N/A"}</td>
 
