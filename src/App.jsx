@@ -4,7 +4,8 @@
 // import Page4 from "./components/Task/Page4";
 // import Page5 from "./components/Task/Page5";
 // import Page6 from "./components/Task/Page6";
-import Page7 from "./components/Task/Page7";
+// import Page7 from "./components/Task/Page7";
+import Page8 from "./components/Task/Page8";
 
 const App = () =>{
   return (
@@ -15,7 +16,8 @@ const App = () =>{
       {/* <Page4/> */}
       {/* <Page5/> */}
       {/* <Page6/> */}
-      <Page7/>
+      {/* <Page7/> */}
+      <Page8/>
     </>
   )
 }
