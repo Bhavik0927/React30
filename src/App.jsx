@@ -9,7 +9,10 @@
 // import Page9 from "./components/Task/Page9";
 // import Page10 from "./components/Task/Page10";
 // import Page11 from "./components/Task/Page11";
-import Page12 from "./components/Task/Page12";
+// import Page12 from "./components/Task/Page12";
+// import Page13 from "./components/Task/Page13";
+// import Page14 from "./components/Task/Page14";
+import Page15 from "./components/Task/Page15";
 
 const App = () =>{
   return (
@@ -25,7 +28,10 @@ const App = () =>{
       {/* <Page9/> */}
       {/* <Page10/> */}
       {/* <Page11/> */}
-      <Page12/>
+      {/* <Page12/> */}
+      {/* <Page13/> */}
+      {/* <Page14/> */}
+      <Page15/>
     </>
   )
 }
