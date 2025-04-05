@@ -14,7 +14,9 @@
 // import Page14 from "./components/Task/Page14";
 // import Page15 from "./components/Task/Page15";
 // import Page16 from "./components/Task/Page16";
-import Page17 from "./components/Task/Page17";
+// import Page17 from "./components/Task/Page17";
+
+import MainStream from "./components/zustand/mainStream";
 
 const App = () =>{
   return (
@@ -35,7 +37,8 @@ const App = () =>{
       {/* <Page14/> */}
       {/* <Page15/> */}
       {/* <Page16/> */}
-      <Page17/>
+      {/* <Page17/> */}
+      <MainStream />
     </>
   )
 }
