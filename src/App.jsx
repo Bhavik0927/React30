@@ -16,11 +16,14 @@
 // import Page16 from "./components/Task/Page16";
 // import Page17 from "./components/Task/Page17";
 
-import MainStream from "./components/zustand/mainStream";
+// import FirstState from "./components/States/FirstState";
+import FirstRef from "./components/UseRefs/FirstRef";
 
+// import MainStream from "./components/zustand/mainStream";
+// import ParentProps from "./components/Task/Props";
 const App = () =>{
   return (
-    <>
+    <div className="flex justify-center items-center h-dvh ">
       {/* <Page/> */}
       {/* <Page2/> */}
       {/* <Page3/> */}
@@ -38,8 +41,11 @@ const App = () =>{
       {/* <Page15/> */}
       {/* <Page16/> */}
       {/* <Page17/> */}
-      <MainStream />
-    </>
+      {/* <MainStream /> */}
+      {/* <ParentProps /> */}
+      {/* <FirstState /> */}
+      <FirstRef />
+    </div>
   )
 }
 
