@@ -15,12 +15,12 @@
 // import Page15 from "./components/Task/Page15";
 // import Page16 from "./components/Task/Page16";
 // import Page17 from "./components/Task/Page17";
-
 // import FirstState from "./components/States/FirstState";
-import FirstRef from "./components/UseRefs/FirstRef";
-
+// import FirstRef from "./components/UseRefs/FirstRef";
 // import MainStream from "./components/zustand/mainStream";
 // import ParentProps from "./components/Task/Props";
+import QueryMain from "./components/React-Query/QueryMain";
+
 const App = () =>{
   return (
     <div className="flex justify-center items-center h-dvh ">
@@ -44,7 +44,8 @@ const App = () =>{
       {/* <MainStream /> */}
       {/* <ParentProps /> */}
       {/* <FirstState /> */}
-      <FirstRef />
+      {/* <FirstRef /> */}
+      <QueryMain />
     </div>
   )
 }
